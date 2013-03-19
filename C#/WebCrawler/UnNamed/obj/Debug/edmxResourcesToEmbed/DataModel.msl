@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebDataConnectionStoreContainer" CdmEntityContainer="DataConnection">
+    <EntitySetMapping Name="URL_T">
+      <EntityTypeMapping TypeName="WebDataConnection.URL_T">
+        <MappingFragment StoreEntitySet="URL_T">
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Web_ID" ColumnName="Web_ID" />
+          <ScalarProperty Name="Date_Accessed" ColumnName="Date_Accessed" />
+          <ScalarProperty Name="TextContent" ColumnName="TextContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

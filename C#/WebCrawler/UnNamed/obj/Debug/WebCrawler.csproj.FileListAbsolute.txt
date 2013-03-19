@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\bin\Debug\UnNamed.exe.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\bin\Debug\UnNamed.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\bin\Debug\UnNamed.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\obj\Debug\UnNamed.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\UnNamed\obj\Debug\UnNamed.pdb

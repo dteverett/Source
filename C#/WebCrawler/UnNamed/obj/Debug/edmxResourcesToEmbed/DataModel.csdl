@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebDataConnection" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DataConnection" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="URL_T" EntityType="WebDataConnection.URL_T" />
+  </EntityContainer>
+  <EntityType Name="URL_T">
+    <Key>
+      <PropertyRef Name="URL" />
+    </Key>
+    <Property Name="URL" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Web_ID" Type="Int64" />
+    <Property Name="Date_Accessed" Type="DateTime" Precision="3" />
+    <Property Name="TextContent" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

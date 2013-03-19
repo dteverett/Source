@@ -1,0 +1,2 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+Y:\Source\C#\Calculator\Calculator\bin\Debug\Calculator.exe.config

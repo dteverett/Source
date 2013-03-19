@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler", "UnNamed\WebCrawler.csproj", "{06B2964A-D3F4-4ACF-BB23-6D3AD3B0B899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{9AF0A551-6B49-4955-A929-E301E9645F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B2964A-D3F4-4ACF-BB23-6D3AD3B0B899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B2964A-D3F4-4ACF-BB23-6D3AD3B0B899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B2964A-D3F4-4ACF-BB23-6D3AD3B0B899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B2964A-D3F4-4ACF-BB23-6D3AD3B0B899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF0A551-6B49-4955-A929-E301E9645F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF0A551-6B49-4955-A929-E301E9645F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF0A551-6B49-4955-A929-E301E9645F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF0A551-6B49-4955-A929-E301E9645F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

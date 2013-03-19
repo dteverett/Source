@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WebDataConnection.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="WebDataConnectionStoreContainer">
+    <EntitySet Name="URL_T" EntityType="WebDataConnection.Store.URL_T" store:Type="Tables" store:Schema="dbo" store:Name="URL_T">
+      <DefiningQuery>SELECT 
+      [URL_T].[URL] AS [URL], 
+      [URL_T].[Web_ID] AS [Web_ID], 
+      [URL_T].[Date_Accessed] AS [Date_Accessed], 
+      [URL_T].[TextContent] AS [TextContent]
+      FROM [dbo].[URL_T] AS [URL_T]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'WebInformation.dbo.URL_T' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="URL_T">
+    <Key>
+      <PropertyRef Name="URL" />
+    </Key>
+    <Property Name="URL" Type="varchar(max)" Nullable="false" />
+    <Property Name="Web_ID" Type="bigint" />
+    <Property Name="Date_Accessed" Type="datetime" />
+    <Property Name="TextContent" Type="varchar(max)" />
+  </EntityType>
+</Schema>

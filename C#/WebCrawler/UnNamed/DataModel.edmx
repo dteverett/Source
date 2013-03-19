@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="WebDataConnection.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="WebDataConnectionStoreContainer">
+          <EntitySet Name="URL_T" EntityType="WebDataConnection.Store.URL_T" store:Type="Tables" store:Schema="dbo" store:Name="URL_T">
+            <DefiningQuery>SELECT 
+      [URL_T].[URL] AS [URL], 
+      [URL_T].[Web_ID] AS [Web_ID], 
+      [URL_T].[Date_Accessed] AS [Date_Accessed], 
+      [URL_T].[TextContent] AS [TextContent]
+      FROM [dbo].[URL_T] AS [URL_T]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'WebInformation.dbo.URL_T' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="URL_T">
+          <Key>
+            <PropertyRef Name="URL" />
+          </Key>
+          <Property Name="URL" Type="varchar(max)" Nullable="false" />
+          <Property Name="Web_ID" Type="bigint" />
+          <Property Name="Date_Accessed" Type="datetime" />
+          <Property Name="TextContent" Type="varchar(max)" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WebDataConnection" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DataConnection" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="URL_T" EntityType="WebDataConnection.URL_T" />
+        </EntityContainer>
+        <EntityType Name="URL_T">
+          <Key>
+            <PropertyRef Name="URL" />
+          </Key>
+          <Property Name="URL" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="Web_ID" Type="Int64" />
+          <Property Name="Date_Accessed" Type="DateTime" Precision="3" />
+          <Property Name="TextContent" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WebDataConnectionStoreContainer" CdmEntityContainer="DataConnection">
+          <EntitySetMapping Name="URL_T">
+            <EntityTypeMapping TypeName="WebDataConnection.URL_T">
+              <MappingFragment StoreEntitySet="URL_T">
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="Web_ID" ColumnName="Web_ID" />
+                <ScalarProperty Name="Date_Accessed" ColumnName="Date_Accessed" />
+                <ScalarProperty Name="TextContent" ColumnName="TextContent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

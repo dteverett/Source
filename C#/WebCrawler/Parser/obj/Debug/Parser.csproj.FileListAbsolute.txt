@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\bin\Debug\Parser.exe.config
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\bin\Debug\Parser.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\bin\Debug\Parser.pdb
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\obj\Debug\Parser.exe
+C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\obj\Debug\Parser.pdb
