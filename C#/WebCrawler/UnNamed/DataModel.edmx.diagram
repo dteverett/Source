@@ -6,6 +6,8 @@
     <edmx:Diagrams>
       <Diagram DiagramId="c451f257e0b647e9b59d43c723010ad4" Name="Diagram1">
         <EntityTypeShape EntityType="WebDataConnection.URL_T" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WebDataConnection.Error_T" Width="1.5" PointX="2.7429123626756073" PointY="24.430586379221914" />
+        <EntityTypeShape EntityType="WebDataConnection.WebID_T" Width="1.5" PointX="6.3231739412635442" PointY="18.441877314095329" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

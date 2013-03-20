@@ -1,0 +1,8 @@
+Y:\Source\C#\WebCrawler\DataConnection\bin\Debug\DataConnection.dll.config
+Y:\Source\C#\WebCrawler\DataConnection\bin\Debug\DataConnection.dll
+Y:\Source\C#\WebCrawler\DataConnection\bin\Debug\DataConnection.pdb
+Y:\Source\C#\WebCrawler\DataConnection\bin\Debug\EntityFramework.dll
+Y:\Source\C#\WebCrawler\DataConnection\bin\Debug\EntityFramework.xml
+Y:\Source\C#\WebCrawler\DataConnection\obj\Debug\DataConnection.csprojResolveAssemblyReference.cache
+Y:\Source\C#\WebCrawler\DataConnection\obj\Debug\DataConnection.dll
+Y:\Source\C#\WebCrawler\DataConnection\obj\Debug\DataConnection.pdb

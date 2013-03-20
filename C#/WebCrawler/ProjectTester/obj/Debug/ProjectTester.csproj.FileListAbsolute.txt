@@ -1,0 +1,10 @@
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\ProjectTester.exe.config
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\ProjectTester.exe
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\ProjectTester.pdb
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\DataConnection.dll
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\EntityFramework.dll
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\DataConnection.pdb
+Y:\Source\C#\WebCrawler\ProjectTester\bin\Debug\EntityFramework.xml
+Y:\Source\C#\WebCrawler\ProjectTester\obj\Debug\ProjectTester.csprojResolveAssemblyReference.cache
+Y:\Source\C#\WebCrawler\ProjectTester\obj\Debug\ProjectTester.exe
+Y:\Source\C#\WebCrawler\ProjectTester\obj\Debug\ProjectTester.pdb

@@ -3,3 +3,9 @@ C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\bin\Debug\Pa
 C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\bin\Debug\Parser.pdb
 C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\obj\Debug\Parser.exe
 C:\Users\Admin\Documents\Visual Studio 2012\Projects\UnNamed\Parser\obj\Debug\Parser.pdb
+Y:\Source\C#\WebCrawler\Parser\bin\Debug\Parser.exe.config
+Y:\Source\C#\WebCrawler\Parser\bin\Debug\Parser.exe
+Y:\Source\C#\WebCrawler\Parser\bin\Debug\Parser.pdb
+Y:\Source\C#\WebCrawler\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
+Y:\Source\C#\WebCrawler\Parser\obj\Debug\Parser.exe
+Y:\Source\C#\WebCrawler\Parser\obj\Debug\Parser.pdb

@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler", "UnNamed\WebCr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{9AF0A551-6B49-4955-A929-E301E9645F94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConnection", "DataConnection\DataConnection.csproj", "{1A5DEEBA-982A-4F44-AA99-AD78FABE0379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTester", "ProjectTester\ProjectTester.csproj", "{83247970-ED51-487C-ABE3-DA9784B892FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{9AF0A551-6B49-4955-A929-E301E9645F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AF0A551-6B49-4955-A929-E301E9645F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AF0A551-6B49-4955-A929-E301E9645F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5DEEBA-982A-4F44-AA99-AD78FABE0379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5DEEBA-982A-4F44-AA99-AD78FABE0379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5DEEBA-982A-4F44-AA99-AD78FABE0379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5DEEBA-982A-4F44-AA99-AD78FABE0379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83247970-ED51-487C-ABE3-DA9784B892FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83247970-ED51-487C-ABE3-DA9784B892FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83247970-ED51-487C-ABE3-DA9784B892FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83247970-ED51-487C-ABE3-DA9784B892FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
