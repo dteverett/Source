@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ClaimStakerDEVModelStoreContainer" CdmEntityContainer="ClaimStakerDevEntities">
+    <EntitySetMapping Name="Tests">
+      <EntityTypeMapping TypeName="ClaimStakerDEVModel.Test">
+        <MappingFragment StoreEntitySet="Tests">
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="DateCreated_DT" ColumnName="DateCreated_DT" />
+          <ScalarProperty Name="Message_VC" ColumnName="Message_VC" />
+          <ScalarProperty Name="ExceptionThrower_VC" ColumnName="ExceptionThrower_VC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

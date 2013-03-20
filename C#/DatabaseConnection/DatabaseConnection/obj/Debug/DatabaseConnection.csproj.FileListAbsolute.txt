@@ -1,0 +1,11 @@
+C:\Users\deverett.APEX\repository\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe.config
+C:\Users\deverett.APEX\repository\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.csprojResolveAssemblyReference.cache
+C:\Users\deverett.APEX\repository\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe
+C:\Users\deverett.APEX\repository\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.pdb
+C:\Users\deverett.APEX\repository\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.exe
+C:\Users\deverett.APEX\repository\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.pdb
+C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe.config
+C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.exe
+C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.pdb
+C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe
+C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.pdb
