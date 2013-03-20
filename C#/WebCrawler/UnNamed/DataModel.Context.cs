@@ -26,5 +26,7 @@ namespace WebCrawler
         }
     
         public DbSet<URL_T> URL_T { get; set; }
+        public DbSet<Error_T> Error_T { get; set; }
+        public DbSet<WebID_T> WebID_T { get; set; }
     }
 }
