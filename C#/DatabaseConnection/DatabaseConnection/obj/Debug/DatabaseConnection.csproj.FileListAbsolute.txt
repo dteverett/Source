@@ -9,3 +9,6 @@ C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\obj\Deb
 C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.pdb
 C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe
 C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.pdb
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe.config
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.exe
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.pdb
