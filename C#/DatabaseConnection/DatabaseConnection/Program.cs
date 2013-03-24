@@ -38,9 +38,20 @@ namespace DatabaseConnection
 
             //Alternative Connection
             //DataContext db = new DataContext (@"C:\linqtest5\northwnd.mdf");
+            Console.WriteLine("Enter a user name:");
+            string uName = Console.ReadLine();
+            
+            
+            
+            DataClassDataContext db = new DataClassDataContext();
 
-            
-            
+            Order_T order = new Order_T();
+            order.OrderName_VC = uName;
+            db.Order_Ts.InsertOnSubmit(order);
+            db.SubmitChanges();
+
+
+
         }
     }
 }

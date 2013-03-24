@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TestEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="TestModel.User" />
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="UserName_VC" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

@@ -12,3 +12,8 @@ C:\Users\deverett.APEX\E_Source\C#\DatabaseConnection\DatabaseConnection\bin\Deb
 Y:\Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe.config
 Y:\Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.exe
 Y:\Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.pdb
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\obj\Debug\DatabaseConnection.csprojResolveAssemblyReference.cache
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.exe
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\DatabaseConnection.pdb
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\EntityFramework.dll
+Y:\Source\C#\DatabaseConnection\DatabaseConnection\bin\Debug\EntityFramework.xml
