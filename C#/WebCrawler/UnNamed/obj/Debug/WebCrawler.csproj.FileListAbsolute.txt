@@ -13,3 +13,5 @@ Y:\Source\C#\WebCrawler\UnNamed\bin\Debug\UnNamed.pdb
 Y:\Source\C#\WebCrawler\UnNamed\bin\Debug\EntityFramework.dll
 Y:\Source\C#\WebCrawler\UnNamed\bin\Debug\EntityFramework.xml
 Y:\Source\C#\WebCrawler\UnNamed\obj\Debug\WebCrawler.csprojResolveAssemblyReference.cache
+Y:\Source\C#\WebCrawler\UnNamed\bin\Debug\DataConnection.dll
+Y:\Source\C#\WebCrawler\UnNamed\bin\Debug\DataConnection.pdb

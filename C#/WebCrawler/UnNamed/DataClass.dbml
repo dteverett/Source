@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebInformation" Class="DataClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=EVERETT-PC\EVERETTSQL;Initial Catalog=WebInformation;Integrated Security=True" SettingsObjectName="WebCrawler.Properties.Settings" SettingsPropertyName="WebInformationConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.URL_T" Member="URL_Ts">
+    <Type Name="URL_T">
+      <Column Name="WebID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="URL_VC" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="TextContent_VC" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateAccessed_DT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="WebID_T_URL_T" Member="WebID_T" ThisKey="WebID" OtherKey="Entry_ID" Type="WebID_T" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WebID_T" Member="WebID_Ts">
+    <Type Name="WebID_T">
+      <Column Name="Entry_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="URL" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Contents_VC" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateAccessed_DT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="WebID_T_URL_T" Member="URL_T" ThisKey="Entry_ID" OtherKey="WebID" Type="URL_T" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Orders" Member="Orders">
+    <Type Name="Order">
+      <Column Name="OrderID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ShipName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ShipAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ShipCity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ShipCountry" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Error_T" Member="Error_Ts">
+    <Type Name="Error_T">
+      <Column Name="Error_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateCreated_DT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Message_VC" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ExceptionThrower_VC" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

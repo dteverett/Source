@@ -1,0 +1,6 @@
+Y:\Source\C#\DatabaseExample\DatabaseExample\bin\Debug\DatabaseExample.exe.config
+Y:\Source\C#\DatabaseExample\DatabaseExample\bin\Debug\DatabaseExample.exe
+Y:\Source\C#\DatabaseExample\DatabaseExample\bin\Debug\DatabaseExample.pdb
+Y:\Source\C#\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.csprojResolveAssemblyReference.cache
+Y:\Source\C#\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.exe
+Y:\Source\C#\DatabaseExample\DatabaseExample\obj\Debug\DatabaseExample.pdb

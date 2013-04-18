@@ -2,6 +2,8 @@
 <Schema Namespace="WebDataConnection" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="DataConnection" p1:LazyLoadingEnabled="true">
     <EntitySet Name="URL_T" EntityType="WebDataConnection.URL_T" />
+    <EntitySet Name="Error_T" EntityType="WebDataConnection.Error_T" />
+    <EntitySet Name="WebID_T" EntityType="WebDataConnection.WebID_T" />
   </EntityContainer>
   <EntityType Name="URL_T">
     <Key>
@@ -11,5 +13,23 @@
     <Property Name="Web_ID" Type="Int64" />
     <Property Name="Date_Accessed" Type="DateTime" Precision="3" />
     <Property Name="TextContent" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Error_T">
+    <Key>
+      <PropertyRef Name="Error_ID" />
+    </Key>
+    <Property Type="Int32" Name="Error_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="DateCreated_DT" Precision="3" />
+    <Property Type="String" Name="Message_VC" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ExceptionThrower_VC" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="WebID_T">
+    <Key>
+      <PropertyRef Name="Entry_ID" />
+    </Key>
+    <Property Type="Int32" Name="Entry_ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="URL" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Contents_VC" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateAccessed_DT" Precision="3" />
   </EntityType>
 </Schema>

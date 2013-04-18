@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="WebDataConnection.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityContainer Name="WebDataConnectionStoreContainer">
+    <EntitySet Name="Error_T" EntityType="WebDataConnection.Store.Error_T" store:Type="Tables" Schema="dbo" />
     <EntitySet Name="URL_T" EntityType="WebDataConnection.Store.URL_T" store:Type="Tables" store:Schema="dbo" store:Name="URL_T">
       <DefiningQuery>SELECT 
       [URL_T].[URL] AS [URL], 
@@ -9,7 +10,17 @@
       [URL_T].[TextContent] AS [TextContent]
       FROM [dbo].[URL_T] AS [URL_T]</DefiningQuery>
     </EntitySet>
+    <EntitySet Name="WebID_T" EntityType="WebDataConnection.Store.WebID_T" store:Type="Tables" Schema="dbo" />
   </EntityContainer>
+  <EntityType Name="Error_T">
+    <Key>
+      <PropertyRef Name="Error_ID" />
+    </Key>
+    <Property Name="Error_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DateCreated_DT" Type="datetime" />
+    <Property Name="Message_VC" Type="varchar" MaxLength="50" />
+    <Property Name="ExceptionThrower_VC" Type="varchar(max)" />
+  </EntityType>
   <!--Errors Found During Generation:
       warning 6002: The table/view 'WebInformation.dbo.URL_T' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
       -->
@@ -21,5 +32,14 @@
     <Property Name="Web_ID" Type="bigint" />
     <Property Name="Date_Accessed" Type="datetime" />
     <Property Name="TextContent" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="WebID_T">
+    <Key>
+      <PropertyRef Name="Entry_ID" />
+    </Key>
+    <Property Name="Entry_ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="URL" Type="varchar" MaxLength="50" />
+    <Property Name="Contents_VC" Type="varchar(max)" />
+    <Property Name="DateAccessed_DT" Type="datetime" />
   </EntityType>
 </Schema>

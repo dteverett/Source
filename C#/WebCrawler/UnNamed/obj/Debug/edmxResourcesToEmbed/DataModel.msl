@@ -11,5 +11,25 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Error_T">
+      <EntityTypeMapping TypeName="WebDataConnection.Error_T">
+        <MappingFragment StoreEntitySet="Error_T">
+          <ScalarProperty Name="ExceptionThrower_VC" ColumnName="ExceptionThrower_VC" />
+          <ScalarProperty Name="Message_VC" ColumnName="Message_VC" />
+          <ScalarProperty Name="DateCreated_DT" ColumnName="DateCreated_DT" />
+          <ScalarProperty Name="Error_ID" ColumnName="Error_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebID_T">
+      <EntityTypeMapping TypeName="WebDataConnection.WebID_T">
+        <MappingFragment StoreEntitySet="WebID_T">
+          <ScalarProperty Name="DateAccessed_DT" ColumnName="DateAccessed_DT" />
+          <ScalarProperty Name="Contents_VC" ColumnName="Contents_VC" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Entry_ID" ColumnName="Entry_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>
